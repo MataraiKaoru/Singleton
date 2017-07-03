@@ -14,6 +14,9 @@
 		FFD329F61F08ABEB00AD920A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFD329F41F08ABEB00AD920A /* LaunchScreen.storyboard */; };
 		FFD32A011F08ABEB00AD920A /* SingletonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD32A001F08ABEB00AD920A /* SingletonTests.swift */; };
 		FFD32A0C1F08ABEB00AD920A /* SingletonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD32A0B1F08ABEB00AD920A /* SingletonUITests.swift */; };
+		FFD32A1A1F08AD0F00AD920A /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD32A191F08AD0F00AD920A /* Singleton.swift */; };
+		FFD32A1C1F08AF1700AD920A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD32A1B1F08AF1700AD920A /* SecondViewController.swift */; };
+		FFE3E8971F08C34D00EB76A9 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE3E8961F08C34D00EB76A9 /* Data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		FFD32A071F08ABEB00AD920A /* SingletonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SingletonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFD32A0B1F08ABEB00AD920A /* SingletonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonUITests.swift; sourceTree = "<group>"; };
 		FFD32A0D1F08ABEB00AD920A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFD32A191F08AD0F00AD920A /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
+		FFD32A1B1F08AF1700AD920A /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		FFE3E8961F08C34D00EB76A9 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,9 @@
 			children = (
 				FFD329EB1F08ABEB00AD920A /* AppDelegate.swift */,
 				FFD329ED1F08ABEB00AD920A /* ViewController.swift */,
+				FFD32A1B1F08AF1700AD920A /* SecondViewController.swift */,
+				FFD32A191F08AD0F00AD920A /* Singleton.swift */,
+				FFE3E8961F08C34D00EB76A9 /* Data.swift */,
 				FFD329EF1F08ABEB00AD920A /* Main.storyboard */,
 				FFD329F21F08ABEB00AD920A /* Assets.xcassets */,
 				FFD329F41F08ABEB00AD920A /* LaunchScreen.storyboard */,
@@ -256,7 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFD32A1C1F08AF1700AD920A /* SecondViewController.swift in Sources */,
+				FFE3E8971F08C34D00EB76A9 /* Data.swift in Sources */,
 				FFD329EE1F08ABEB00AD920A /* ViewController.swift in Sources */,
+				FFD32A1A1F08AD0F00AD920A /* Singleton.swift in Sources */,
 				FFD329EC1F08ABEB00AD920A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,6 +431,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PA3RF24U47;
 				INFOPLIST_FILE = Singleton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kaoru.inc.Singleton;
@@ -432,6 +445,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PA3RF24U47;
 				INFOPLIST_FILE = Singleton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kaoru.inc.Singleton;
@@ -518,6 +532,7 @@
 				FFD32A121F08ABEB00AD920A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FFD32A131F08ABEB00AD920A /* Build configuration list for PBXNativeTarget "SingletonTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +541,7 @@
 				FFD32A151F08ABEB00AD920A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FFD32A161F08ABEB00AD920A /* Build configuration list for PBXNativeTarget "SingletonUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +550,7 @@
 				FFD32A181F08ABEB00AD920A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
